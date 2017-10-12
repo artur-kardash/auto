@@ -1,0 +1,252 @@
+
+/******EDIT AGENCY LOGO**********/
+.agency-logo{
+    width:266px;
+    height:266px;
+    background: #fff;
+    border:5px solid #fff;
+    border-radius:1000px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    overflow: hidden;
+}
+.agency-logo-shadow{
+    position:relative;
+    width:256px;
+    height:256px;
+    border-radius:1000px;
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3);
+}
+.agency-logo-back{
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:0%;
+    height:0%;
+    background:rgba(0,0,0,0);
+    border-radius:1000px;
+}
+.agency-logo-shadow:hover .agency-logo-back{
+    transition-property: background, padding,top,left,right,bottom,width,height;
+    transition-duration: 0.5s;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    padding:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.7);
+}
+.change-logo-button{
+    display:none;
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:150px;
+    margin-left:-75px;
+    margin-top:-25px;
+    padding:10px 20px;
+    font-size:1.1em;
+    color:#fff;
+    text-decoration:none;
+    text-align: center;
+    background:rgba(0,0,0,0.7);
+    border:1px solid #fff;
+    cursor:pointer;
+}
+.agency-logo-shadow:hover .change-logo-button{
+    display:block;
+}
+/******  EDIT AGENCY LOGO  **********/
+
+.addagent{
+    float: right;
+}
+
+.savecolor{
+    margin-top: 5px;
+    width: 12%;
+    display: inline-block;
+}
+
+#success{
+    font-weight: bold;
+    color: #3CBF47;
+}
+
+.defaulttheme{
+    margin-top: 10px;
+    width: 20%;
+    display: inline-block;
+}
+
+.error_mess{
+    color: #d51313;
+}
+
+.dwnl_form{
+    width: 460px;
+}
+
+.link_dwnl{
+    text-decoration: none!important;
+    color: #fff!important;
+}
+
+#valid_dep{
+    text-align: center;
+    margin-bottom: 13px;
+    color:#69BF68;
+}
+
+#lender_other{
+    list-style-type: none;
+}
+
+#BUS_Underwriting{
+    list-style-type: none;
+}
+
+
+#dataTables-broker_wrapper > .row > .col-sm-6 {
+
+ padding-right:0;
+ padding-left:0;
+
+}
+
+#dataTables-agencies_wrapper > .row >.col-sm-6 {
+    padding-right:0;
+    padding-left:0;
+
+}
+
+#dataTables-clients_wrapper > .row > .col-sm-6 {
+
+    padding-right:0;
+    padding-left:0;
+
+}
+
+#dataTables-clients_wrapper > .row > .col-sm-6 {
+
+    padding-right:0;
+    padding-left:0;
+
+}
+
+#dataTables-coupons_wrapper > .row > .col-sm-6 {
+
+    padding-right:0;
+    padding-left:0;
+
+}
+
+
+#dataTables-notice_wrapper > .row > .col-sm-6 {
+
+    padding-right:0;
+    padding-left:0;
+}
+
+
+#dataTables-registr_wrapper > .row > .col-sm-6 {
+
+    padding-right:0;
+    padding-left:0;
+
+}
+
+
+
+#page-wrapper>  .container-fluid > .row > .col-md-8 {
+
+
+    padding-right:0;
+    padding-left:0;
+}
+
+
+
+
+#page-header {
+
+}
+
+ .addagent {
+     margin-top:-25px;
+    padding: 10px -5px;
+    margin-bottom:10px;
+}
+
+#dataTables-corporate_wrapper > .row > .col-sm-6{
+
+    padding-right:0;
+    padding-left:0;
+
+}
+
+#page-wrapper  {
+
+    padding-right:0;
+    padding-left:0;
+
+}
+
+.add {
+
+    padding-right:0 !important;
+    padding-left:0 !important;
+
+}
+
+
+#dataTables-clients_wrapper > .row > .col-sm-6 {
+
+    padding-right:0px;
+    padding-left:0px;
+}
+
+ .col-md-4 .col-md-offset-4 .broker{
+
+    margin-bottom:20px;
+}
+
+ #dataTables-title_wrapper > .row > .col-sm-6 {
+
+
+     padding-right:0px;
+     padding-left:0px;
+ }
+
+ .light-logo{
+    width: 15%;
+ }
+
+/*
+#dataTables-clients_wrapper > .row > .col-sm-6 {
+
+    padding-right:0;
+    padding-left:0;
+}
+
+#dataTables-registr_length {
+
+    margin-left:-15px;
+    margin-right:-15px;
+}
+
+.container-fluid > .row .add {
+    margin-left:-15px;
+    margin-right:-15px;
+
+}
+#dataTables-clients_wrapper > .row > .col-sm-6 {
+    padding-right:0 !important;
+    padding-left:0 !important;
+
+}*/
+
+
+
+
