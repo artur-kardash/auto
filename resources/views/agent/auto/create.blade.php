@@ -9,8 +9,6 @@
             <h1 class="page-header">
                 Add new auto
             </h1>
-
-
         </div>
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
@@ -18,10 +16,8 @@
                 <div class="panel-body">
                     <form class="form-horizontal" role="form" method="POST" action="{{ route('auto.store') }}">
                         {{ csrf_field() }}
-
                         <div class="form-group{{ $errors->has('car_brand') ? ' has-error' : '' }}">
                             <label for="car_brand" class="col-md-4 control-label">Car Brand *</label>
-
                             <div class="col-md-6">
                                 <div class="form-group">
                                     {{--<label for="categories[][title]">Category Title*:</label>--}}
@@ -34,15 +30,11 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="form-group{{ $errors->has('model_of_car') ? ' has-error' : '' }}">
                             <label for="model_of_car" class="col-md-4 control-label select_model">Model of Car *</label>
                                 <div class="col-md-6" id="type_car">
-
                                 </div>
                         </div>
-
-
                         <div class="form-group">
                             <div class="col-md-6 col-md-offset-4">
                                 <button type="submit" class="btn btn-primary">
@@ -87,11 +79,7 @@
                 });
             }
         });
-
-
-
-
-
+        
     </script>
 @endsection
 
