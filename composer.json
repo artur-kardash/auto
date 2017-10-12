@@ -17,6 +17,7 @@
     "require-dev": {
         "fzaninotto/faker": "~1.4",
         "mockery/mockery": "0.9.*",
+        "omniphx/forrest": "2.*",
         "phpunit/phpunit": "~5.7"
     },
     "autoload": {
