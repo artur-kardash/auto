@@ -163,7 +163,6 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
         Laravel\Cashier\CashierServiceProvider::class,
-        BC\LaravelDropboxDriver\ServiceProvider::class,
         Omniphx\Forrest\Providers\Laravel\ForrestServiceProvider::class,
 
         /*
